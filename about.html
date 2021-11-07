@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SAIC Institute</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>About Us</h1>
+
+	</section>
+	<!-------about us content---------->
+	<section class="aout-us">
+		<div class="row">
+			<div class="about-col">
+				<h1>We Are the world's largest College</h1>
+				<p>বাংলাদেশ কারিগরি শিক্ষা বোর্ড  অনুমোদিত সাইক গ্রুপ পরিচালিত সাইক  ইনস্টিটিউট অব ম্যানেজমেন্ট অ্যান্ড টেকনোলজি  (এসআইএমটি) ওয়ার্ল্ড ব্যাংকের অনুদানপ্রাপ্ত সর্ববৃহৎ প্রাইভেট পলিটেকনিক। প্রযুক্তির দ্রুত বিস্তারের সাথে মানসম্মত শিক্ষার সমন্বয় না ঘটলে দক্ষ মানবসম্পদ  গড়ে উঠে না। আর দক্ষ ও অভিজ্ঞ জনশক্তি গড়তে  কারিগরি শিক্ষার গুরুত্ব অনেক। সময়ের বিবর্তন আর প্রযুক্তির উন্নয়নে  বিশ্বব্যাপী কারিগরি শিক্ষার চাহিদা বাড়ছে।</p>
+				<a href="" class="hero-btn red-btn">Explore Now</a>
+			</div>
+			<div class="about-col">
+				<img src="about.jpg">
+			</div>
+		</div>
+	</section>
+
+
+	
+	<!-----------Footer--------->
+	<section class="footer">
+		<h4>About us</h4>
+		<p>To the administrators and staff: Unlike other institutions, you allow us to initiate.<br> This year has been a learning experience for all of us, and yet through our mistakes and achievements.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+			
+		</div>
+		<p>Made with love<i class="fa fa-heart-o"></i> By Jahirol (Islam BABU)</p>
+	</section>
+
+
+
+
+
+
+	<!------Javascript For Toggle Menu------->
+	<script type="text/javascript">
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+			
+		}
+
+	</script>
+
+</body>
+</html>
